@@ -1,0 +1,22 @@
+<?xhml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xhml PUBLIC "-//W3C//DTD XHML 1.0//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<xhml xmlns:lang="http://example.com/lang">
+    <head>
+        <title>Default XHML Document</title>
+    </head>
+    <body>
+        <h1>Welcome to XHML!</h1>
+        <p>This is the default XHML document.</p>
+        <lang:merge languagename="Python"/>
+        <code>
+            print("Hello from Python!")
+        </code>
+        <lang:merge languagename="JavaScript"/>
+        <code>
+            console.log("Hello from JavaScript!");
+        </code>
+        <script>
+            console.log("XHML Script Example");
+        </script>
+    </body>
+</xhml>
